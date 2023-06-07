@@ -1,0 +1,36 @@
+.profile {
+    display: flex;
+    align-items: flex-end;
+}
+
+.profile__avatar {
+    max-width: 437px;
+    width: 100%;
+    border-radius: 50%;
+    margin-right: 107px;
+}
+
+.profile__content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 78px;
+}
+
+.profile__fullname {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.profile__birthday {
+    font-size: 38px;
+    margin-bottom: 44px;
+}
+
+.profile__edit {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    font-size: 32px;
+}

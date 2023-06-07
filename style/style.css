@@ -84,11 +84,20 @@ fieldset {
 
 .btn {
     padding: 10px 20px;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 15px;
     color: #365ABA;
     text-transform: capitalize;
     font-size: 34px;
+}
+
+.btn_castling {
+    background-color: #365ABA;
+    color: #fff;
+}
+
+.hero {
+    display: none;
 }
 
 .wishlist {
@@ -96,5 +105,5 @@ fieldset {
 }
 
 .edit {
-    display: none;
+    /* display: none; */
 }
